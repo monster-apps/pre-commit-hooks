@@ -1,0 +1,17 @@
+- id: format
+  name: format
+  entry: bash -c "flutter format . --set-exit-if-changed ."
+  types: [dart]
+  language: system
+
+- id: analyze
+  name: analyze
+  entry: bash -c "flutter analyze ."
+  types: [dart]
+  language: system
+
+- id: test
+  name: test
+  entry: bash -c "flutter test"
+  types: [dart]
+  language: system
