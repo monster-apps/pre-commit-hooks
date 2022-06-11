@@ -1,3 +1,9 @@
+- id: coverage-helper
+  name: coverage-helper
+  entry: bash -c "dart run coverage_helper.dart"
+  types: [dart]
+  language: system
+
 - id: format
   name: format
   entry: bash -c "flutter format . --set-exit-if-changed ."
